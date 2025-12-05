@@ -41,7 +41,7 @@ const sendVerificationEmail = async (email, code, nombres) => {
 const sendPasswordResetEmail = async (email, code) => {
     const msg = {
         to: email,
-        from: process.env.EMAIL_USER || 'sisdenunciasdg@gmail.com',
+        from: process.env.EMAIL_USER || 'marca0331@outlook.es',
         subject: 'Recuperación de Contraseña - Denuncias Digitales',
         html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
